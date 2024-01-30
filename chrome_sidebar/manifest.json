@@ -1,0 +1,12 @@
+{
+"name": "Xサイドバー非表示",
+"version": "1.0.0",
+"description": "Xのサイドバーを消す",
+"content_scripts": [
+    {
+        "matches": ["https://*.twitter.com/home*"],
+        "css": ["style.css"] 
+    }
+],
+"manifest_version": 3
+}
